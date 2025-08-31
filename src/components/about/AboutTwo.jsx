@@ -1,8 +1,5 @@
 import React from "react";
 import PATTERN from "../../assets/img/about/about2/Pattern.gif";
-import THUMB_1 from "../../assets/img/about/about2/about2.png";
-import THUMB_2 from "../../assets/img/about/about2/about3.png";
-import THUMB_3 from "../../assets/img/about/about2/about1.png";
 import { Link } from "react-router-dom";
 
 export const AboutTwo = () => {
@@ -14,46 +11,7 @@ export const AboutTwo = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-xxl-7 col-xl-6 col-lg-6 pb-40">
-            <div
-              className="td-about-2-left p-relative wow fadeInRight"
-              data-wow-delay=".4s"
-              data-wow-duration="1s"
-            >
-
-              <div className="row">
-                <div className="col-lg-7 col-md-7 col-sm-7 col-7">
-                  <div className="td-about-2-thumb">
-                    <img
-                      className="td-about-thumb-1 w-100"
-                      src={THUMB_1}
-                      alt="thumb"
-                    />
-                  </div>
-                </div>
-                <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                  <div className="td-about-2-thumb">
-                    <img
-                      className="td-about-thumb-2 w-100"
-                      src={THUMB_2}
-                      alt="thumb"
-                    />
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="td-about-2-thumb">
-                    <img
-                      className="td-about-thumb-3 w-100"
-                      src={THUMB_3}
-                      alt="thumb"
-                      style={{ marginTop: '-180px' }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xxl-5 col-xl-6 col-lg-6 pb-40">
+          <div className="col-lg-12 pb-40">
             <div
               className="td-about-content-wrap p-relative wow fadeInLeft"
               data-wow-delay=".4s"
@@ -63,43 +21,43 @@ export const AboutTwo = () => {
                 Brand since 1972
               </span>
               <h2 className="td-section-title mb-30">
-                Best solution for your business
+                Empowering Financial Growth Worldwide
               </h2>
               <p className="td-about-para pr-10 pb-45">
-                Our focus is on delivering superior value to our clients for
-                company modification. Providing sustainable strategies that will
-                upgrade their business.
+                LuLu Financial Group is a UAE-based company committed to delivering innovative financial services and investments that drive progress and opportunity. With a strong regional and global footprint, we focus on building trust and driving sustainable growth.
               </p>
               <div className="td-counter-count-wrap td-counter-count-wrap-2 mb-35 d-flex">
                 <div className="td-counter-single mr-60">
+                  <span className="td-counter-count-para mb-10">
+                    Presence in
+                  </span>
                   <h2 className="td-counter-count fs-36">
                     <span
                       data-purecounter-duration="1"
-                      data-purecounter-end="85"
+                      data-purecounter-end="11"
                       className="purecounter"
                     >
-                      0
+                      11
                     </span>
-                    K+
+                    <span className="td-counter-count-para"> Countries</span>
                   </h2>
-                  <span className="td-counter-count-para">
-                    Companies analyzed
-                  </span>
                 </div>
                 <div className="td-counter-single">
+                  <span className="td-counter-count-para mb-10">
+                    Managing Annual Transactions worth
+                  </span>
                   <h2 className="td-counter-count fs-36">
+                    <span className="td-counter-count-para">USD</span>
                     <span
                       data-purecounter-duration="1"
-                      data-purecounter-end="135"
+                      data-purecounter-end="10"
                       className="purecounter"
                     >
-                      0
+                       10
                     </span>
-                    M
+                    +
+                    <span className="td-counter-count-para"> Billion</span>
                   </h2>
-                  <span className="td-counter-count-para">
-                    Satisfied clients
-                  </span>
                 </div>
               </div>
               <div className="td-about-btn">

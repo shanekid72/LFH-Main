@@ -31,10 +31,17 @@ export const AboutWorkOne = () => {
             >
               <div className="td-work-title-wrap mb-200">
                 <span className="td-section-title-pre mb-10">
-                  Right Direction
+                  Vision
                 </span>
                 <h2 className="td-section-title">
-                  Real digital experience like no others
+                  Innovate Value, Inspire Experiences
+                </h2>
+                <br/>
+                <span className="td-section-title-pre mb-10">
+                  Mission
+                </span>
+                <h2 className="td-section-title">
+                  To enhance value of investments by designing inspiring customer experiences built on technology and collaborative partnerships
                 </h2>
               </div>
 

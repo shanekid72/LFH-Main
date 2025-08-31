@@ -1,40 +1,40 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import thumb from "../../assets/img/portfolio/portfolio2/image5.svg";
-import thumb2 from "../../assets/img/portfolio/portfolio2/image6.svg";
-import thumb3 from "../../assets/img/portfolio/portfolio2/image7.svg";
-import thumb4 from "../../assets/img/portfolio/portfolio2/image8.svg";
-import thumb5 from "../../assets/img/portfolio/portfolio2/image9.svg";
+import thumb from "../../assets/img/portfolio/portfolio2/thumb.png";
+import thumb2 from "../../assets/img/portfolio/portfolio2/thumb2.png";
+import thumb3 from "../../assets/img/portfolio/portfolio2/thumb3.png";
+import thumb4 from "../../assets/img/portfolio/portfolio2/thumb4.png";
+import thumb5 from "../../assets/img/portfolio/portfolio2/thumb5.png";
 
 export const PortfolioTwo = () => {
   const portfolioItems = [
     {
       id: "1",
-      title: "Data & Analysis",
+      title: "Global Reach",
       href: "/portfolio-details",
       imgSrc: thumb,
     },
     {
       id: "2",
-      title: "Operations & Efficiency",
+      title: "Digital Innovation",
       href: "/portfolio-details",
       imgSrc: thumb2,
     },
     {
       id: "3",
-      title: "Growth & Innovation",
+      title: "Trust & Compliance",
       href: "/portfolio-details",
       imgSrc: thumb3,
     },
     {
       id: "4",
-      title: "Branding and Design",
+      title: "Trusted Partnerships",
       href: "/portfolio-details",
       imgSrc: thumb4,
     },
     {
       id: "5",
-      title: "Management & Plan",
+      title: "Secure & Seamless Transactions",
       href: "/portfolio-details",
       imgSrc: thumb5,
     },
@@ -50,8 +50,7 @@ export const PortfolioTwo = () => {
               data-wow-delay=".3s"
               data-wow-duration="1s"
             >
-              <span className="td-section-title-pre mb-10">Case Studies</span>
-              <h2 className="td-section-title">Our recent works</h2>
+              <h2 className="td-section-title">What Defines Us</h2>
             </div>
           </div>
 
